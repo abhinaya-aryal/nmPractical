@@ -12,7 +12,7 @@ int main() {
   printf("\nEnter initial and final value of x : \n");
   scanf("%f%f", &a, &b);
   printf("\nNumber of segments : ");
-  scanf("&d", &n);
+  scanf("%d", &n);
   h = (b - a) / n;
   
   for (x = a; x <= b; x = x + h) {
@@ -29,6 +29,6 @@ int main() {
   sum = sum * h / 2;
   
   printf("\nIntegral value of f(x) = %f", sum);
-  printf("\n\n\t\t  Abhinaya Aryal\n");    
+  printf("\n\n\t\t  Abhinaya Aryal\n\n");    
   return 0;
 }
